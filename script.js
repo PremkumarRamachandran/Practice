@@ -6,3 +6,5 @@ if (c_age >= 18) {
 } else {
     console.log("Not Eligible to vote");
 }
+
+console.log("Name: " + c_name + " Age: " + c_age);
