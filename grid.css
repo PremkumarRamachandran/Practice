@@ -1,0 +1,44 @@
+<style>
+  .container {
+      display:grid;
+      grid: template col 200px; 
+      grid-row: 30px 40px 50px 60px;
+      gap: 4px;
+  }
+  .one {
+      background-color: aquamarine;
+      color: rgb(224, 0, 0);
+  }
+  .two {
+      background-color: rgb(21, 10, 223);
+      color: rgb(224, 0, 0);
+  }
+
+  .three {
+      background-color: rgb(253, 17, 17);
+      color: rgb(224, 0, 0);
+  }
+
+  .four{
+      background-color: rgb(11, 246, 23);
+      color: rgb(41, 0, 224);
+  }
+
+  .five {
+      background-color: aquamarine;
+      color: rgb(224, 0, 0);
+  }
+.navbar {
+    position: sticky;
+    top: 40px;
+    width: 1000px;
+    background-color:rgb(242, 5, 5);
+    padding:10px;
+    text-align:center;
+   }
+    
+  .content {
+              
+              height: 1000px;
+  }
+  <
